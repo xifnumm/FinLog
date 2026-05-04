@@ -186,4 +186,4 @@ For security vulnerabilities, do not open a public issue. See the responsible di
 
 ## License
 
-[MIT](LICENSE) © 2026 Munfix
+[MIT](LICENSE) © 2026 Munfiz Ibrahim
