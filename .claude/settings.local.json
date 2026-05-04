@@ -14,7 +14,24 @@
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(k\\) for k in d.keys\\(\\)]\")",
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('projects',{}\\).get\\('D:\\\\\\\\\\\\\\\\Development\\\\\\\\\\\\\\\\finlog',d.get\\('projects',{}\\).get\\('/d/Development/finlog',{}\\)\\), indent=2\\)\\)\")",
       "Read(//c/Users/MunfizIbrahim/**)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "mcp__supabase__list_tables",
+      "mcp__supabase__execute_sql",
+      "mcp__supabase__apply_migration",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(Remove-Item \"D:\\\\Development\\\\finlog\\\\components\\\\layout\\\\Sidebar.tsx\" -Force)",
+      "Bash(Remove-Item \"D:\\\\Development\\\\finlog\\\\components\\\\layout\\\\TopNav.tsx\" -Force)",
+      "Bash(Remove-Item \"D:\\\\Development\\\\finlog\\\\app\\\\\\(protected\\)\\\\settings\\\\page.tsx\" -Force)",
+      "Bash(Write-Output \"Deleted dead files\")",
+      "Bash(npx next *)",
+      "Bash(Remove-Item -Path \"D:\\\\Development\\\\finlog\\\\components\\\\accounts\\\\AccountsClient.tsx\" -Force)",
+      "Bash(Remove-Item -Path \"D:\\\\Development\\\\finlog\\\\app\\\\\\(protected\\)\\\\accounts\\\\page.tsx\" -Force)",
+      "Bash(Remove-Item -Path \"D:\\\\Development\\\\finlog\\\\app\\\\\\(protected\\)\\\\accounts\\\\loading.tsx\" -Force)",
+      "Bash(Remove-Item -Path \"D:\\\\Development\\\\finlog\\\\app\\\\actions\\\\accounts.ts\" -Force)",
+      "Bash(Remove-Item -Path \"D:\\\\Development\\\\finlog\\\\components\\\\accounts\" -Force -Recurse -ErrorAction SilentlyContinue)",
+      "PowerShell(npx next build 2>&1 | Select-Object -Last 50)",
+      "PowerShell(npx next build 2>&1 | Select-Object -Last 20)"
     ]
   }
 }

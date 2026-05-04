@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code local config (tool permissions, not for committing)
+.claude/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
